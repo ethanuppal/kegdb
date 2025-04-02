@@ -1,0 +1,40 @@
+# Undertale
+gamma_correction = "default"
+program_flags = ""
+program_path = "/Program Files (x86)/Steam/steam.exe"
+
+[translation]
+d3d_metal = true
+dxvk = false
+dxmt = false
+molten_vkcx = true
+fast_math = false
+advertise_avx = false
+metal_hud = false
+
+[wine]
+wine_esync = true
+wine_msync = true
+wine_debug = "-plugplay,+loaddll"
+use_start_exe = false
+
+[winetricks]
+winetricks_disable_logging = true
+winetricks_force = false
+winetricks_silent = false
+skip_gecko = false
+skip_mono = false
+
+[folders]
+symlinks_in_user_folder = true
+symlink_desktop = "$HOME/Desktop"
+symlink_downloads = "$HOME/Downloads"
+symlink_documents = "$HOME/Documents"
+symlink_music = "$HOME/Music"
+symlink_pictures = "$HOME/Pictures"
+symlink_videos = "$HOME/Movies"
+symlink_templates = "$HOME/Templates"
+
+[debug]
+debug_mode = false
+disable_cpus = false
