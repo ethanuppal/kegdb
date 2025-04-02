@@ -1,6 +1,6 @@
 # R.E.P.O.
 gamma_correction = "default"
-program_flags = ""
+program_flags = "-applaunch 3241660"
 program_path = "/Program Files (x86)/Steam/steam.exe"
 
 [translation]

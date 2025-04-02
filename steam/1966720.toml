@@ -1,12 +1,12 @@
-# Undertale
+# Lethal Company
 gamma_correction = "default"
-program_flags = "-applaunch 391540"
+program_flags = "-applaunch 1966720"
 program_path = "/Program Files (x86)/Steam/steam.exe"
 
 [translation]
-d3d_metal = true
+d3d_metal = false
 dxvk = false
-dxmt = false
+dxmt = true
 molten_vkcx = true
 fast_math = false
 advertise_avx = false
